@@ -26,7 +26,7 @@ const MobileDownload = () => {
             Build, Customize and Launch Your Website in Seconds
           </p>
         </div>
-        <div className="flex flex-wrap justify-between gap-5 ">
+        <div className="flex flex-wrap items-start justify-start gap-2 ">
           <div className="flex ">
             <img src={avatar1} className="h-12 w-auto " alt="avatar" />
             <img

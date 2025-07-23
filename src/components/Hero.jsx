@@ -8,7 +8,7 @@ const Hero = () => {
   const imgHeroStyle = "h-42 w-auto rounded-3xl shadow-2xl";
 
   return (
-    <div id="home" className="flex justify-between gap-8 items-center mt-12">
+    <div id="home" className="flex  justify-between gap-8 items-center mt-12">
       <div className="flex flex-col gap-6 ">
         <h1 className="text-5xl font-bold text-center md:text-left">
           Build, Customize and Launch Your landing page in Seconds
@@ -28,7 +28,7 @@ const Hero = () => {
           <button className="main-btn">Get started</button>
         </div>
       </div>
-      <div className="hidden md:flex justify-center flex-wrap gap-8">
+      <div className="hidden 2xl:flex flex-wrap justify-center  gap-8">
         <img src={hero1} alt="hero 1" className={imgHeroStyle} />
         <img src={hero2} alt="hero 2" className={imgHeroStyle} />
         <img src={hero3} alt="hero 3" className={imgHeroStyle} />
