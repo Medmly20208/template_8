@@ -3,11 +3,11 @@ import { RxCross1 } from "react-icons/rx";
 
 const MobileNav = ({ toggleMenu, isNavOpened }) => {
   const listStyle = "font-semibold cursor-pointer text-lg hover:text-blue-600";
-
+  console.log("ded", isNavOpened);
   return (
     <div
-      className={`bg-white md:hidden fixed top-0 left-0 w-screen h-screen z-[1000] transition-all duration-200 ${
-        isNavOpened ? "left-[-50em]" : "hidden"
+      className={`bg-white md:hidden fixed top-0  w-screen h-screen z-[1000] transition-all duration-200 ${
+        isNavOpened ? "left-0" : "left-[-50rem]"
       } `}
     >
       <div className="flex justify-end relative top-12 right-12">
