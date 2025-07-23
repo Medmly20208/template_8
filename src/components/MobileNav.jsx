@@ -3,7 +3,6 @@ import { RxCross1 } from "react-icons/rx";
 
 const MobileNav = ({ toggleMenu, isNavOpened }) => {
   const listStyle = "font-semibold cursor-pointer text-lg hover:text-blue-600";
-  console.log("ded", isNavOpened);
   return (
     <div
       className={`bg-white md:hidden fixed top-0  w-screen h-screen z-[1000] transition-all duration-200 ${
