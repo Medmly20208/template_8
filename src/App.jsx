@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Benefits from "./components/Benefits";
 import Howitworks from "./components/Howitworks";
-import Themes from "./components/themes";
+import Themes from "./components/Themes";
 import MobileDownload from "./components/MobileDownload";
 import Data from "./components/Data";
 import Reviews from "./components/Reviews";
