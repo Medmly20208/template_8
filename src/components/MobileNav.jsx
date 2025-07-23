@@ -7,7 +7,7 @@ const MobileNav = ({ toggleMenu, isNavOpened }) => {
   return (
     <div
       className={`bg-white md:hidden fixed top-0 left-0 w-screen h-screen z-[1000] transition-all duration-200 ${
-        isNavOpened ? "left-[-50em]" : ""
+        isNavOpened ? "left-[-50em]" : "hidden"
       } `}
     >
       <div className="flex justify-end relative top-12 right-12">
