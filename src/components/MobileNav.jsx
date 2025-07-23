@@ -15,7 +15,7 @@ const MobileNav = ({ toggleMenu, isNavOpened }) => {
       <div className="flex flex-col h-screen justify-center items-center gap-4">
         <ul>
           <ul className=" gap-8  flex flex-col">
-            <a href="#home">
+            <a onClick={toggleMenu} href="#home">
               {" "}
               <li className={listStyle}>Home</li>
             </a>
